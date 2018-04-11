@@ -81,10 +81,14 @@
       color: $accent-color;
     }
   }
+  
+  
 
   .entry-excerpt {
     @include breakpoint($medium) {
+      float: left;
       width: span(11 of 16);
+      padding-left: gutter(1 of 16);
     }
 
     /* normalize font sizes */
@@ -96,11 +100,14 @@
     > *:last-child {
       margin-bottom: 0;
     }
+
   }
 
   .entry-content {
     @include breakpoint($medium) {
+      float: left;
       width: span(11 of 16);
+      padding-left: gutter(1 of 16);
     }
 
     /* remove space after last child element */
@@ -109,11 +116,18 @@
     }
   }
 
+  .entry-image {
+    float: left;
+    width: 200px;
+    margin-bottom: 0;
+  }
+
   .entry-meta {
     @include breakpoint($medium) {
-      float: right;
+      float: left;
       width: span(5 of 16 last);
       padding-left: gutter(1 of 16);
+      margin-bottom: 0;
     }
   }
 

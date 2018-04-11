@@ -7,11 +7,12 @@ $small: 320px !default;
 $medium: 768px !default;
 $large: 1024px !default;
 $xlarge: 1280px !default;
+$xxlarge: 1800px !default;
 
 /* Fluid type */
 $base-font-size: 16px !default;
 $min-vw: $small !default;
-$max-vw: $xlarge !default;
+$max-vw: $xxlarge !default;
 $min-font-size: 14px !default;
 $max-font-size: 18px !default;
 
@@ -76,13 +77,13 @@ $base0e: #c795ae !default;
 $base0f: #c79595 !default;
 
 /* Max-width of the main content */
-$main-max-width: $xlarge !default;
+$main-max-width: $xxlarge !default;
 
 /* Width of the sidebar */
 $sidebar-width: $small !default;
 
 /* Background color of the sidebar */
-$sidebar-background-color: #fff !default;
+$sidebar-background-color: #9e9e9e !default;
 
 /* Intro image color overlay */
 $intro-image-color-overlay: false !default;
